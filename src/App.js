@@ -9,12 +9,13 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
-          <h2> Changed on feature branch...Wazzuuupppp!!! </h2>
         </div>
-        <h2> Changed on feature branch...Wazzuuupppp!!! </h2>
-        <p className="App-intro">
-          Wazzuuupppp, edited<code>src/App.js</code> and save to reload.
-        </p>
+        <div>
+          <h2> Changed on feature branch...Wazzuuupppp!!! </h2>
+          <p className="App-intro">
+            Wazzuuupppp, edited<code>src/App.js</code> and save to reload.
+          </p>
+        </div>
       </div>
     );
   }
